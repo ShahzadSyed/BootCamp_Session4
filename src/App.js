@@ -9,7 +9,8 @@ function App() {
 
   return (
     <div className={`box ${isMorning ? 'dayLight' : ''}`}>
-      <h1>Day Time = {isMorning ? 'Morning' : 'Night'}</h1>
+      <h1>BootCamp Seesio 04 - UseState with Props</h1>
+      <h2>Day Time = {isMorning ? 'Morning' : 'Night'}</h2>
       {/* <h2>Value of counter variable is : {count}</h2> */}
 
        <Message  counter={count}/> 
